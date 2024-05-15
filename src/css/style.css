@@ -1,0 +1,53 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: var(--background-color);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.advice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: 345px;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    box-shadow: #52ffa8 0px 0px 20px;
+}
+
+.advice #advice-id {
+    font-size: 15px;
+    color: var(--advice-dice-color);
+    margin-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.advice #advice-description {
+    font-size: 23px;
+    color: var(--text-color);
+    text-align: center;
+    padding: 23px;
+}
+
+.advice #advice-update {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+    transform: translateY(50%);
+}
+
+.advice #advice-update:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px var(--advice-dice-color);
+}
